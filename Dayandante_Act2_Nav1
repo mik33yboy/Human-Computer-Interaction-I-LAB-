@@ -1,0 +1,157 @@
+<div class="desktop">
+  <div class="div">
+    <div class="rectangle"></div>
+    <div class="rectangle-2"></div>
+    <div class="navbar">
+      <div class="rectangle-3"></div>
+      <div class="text-wrapper">HOME</div>
+      <div class="text-wrapper-2">PRODUCT</div>
+      <div class="text-wrapper-3">COMPANY</div>
+      <div class="text-wrapper-4">CONTACT</div>
+    <div class="rectangle-4"></div>
+    <div class="rectangle-5"></div>
+    <div class="rectangle-6"></div>
+    <div class="rectangle-7"></div>
+    </div>
+  </div>
+</div>
+
+<Style>
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 700px;
+  height: 3px;
+  top: 60px; 
+  left: 52px;
+  background-color: #ef715a;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 700px;
+  height: 8px;
+  top: 312px; 
+  left: 52px;
+  background-color: #ef715a;
+}
+
+.desktop .navbar {
+  position: absolute;
+  width: 695px;
+  height: 56px;
+  top: 80px;
+  left: 57px;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 695px;
+  height: 47px;
+  top: 0; 
+  left: 0;
+  background-color: #ef715a;
+}
+
+.desktop .text-wrapper {
+  width: 150px;
+  left: 34px;
+  color: #000000;
+  position: absolute;
+  top: 12px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  font size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  width: 97px;
+  left: 155px;
+  color: #ffffff;
+  position: absolute;
+  top: 12px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  font size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-3 {
+  width: 97px;
+  left: 328px;
+  color: #ffffff;
+  position: absolute;
+  top: 12px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  font size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  width: 97px;
+  left: 497px;
+  color: #ffffff;
+  position: absolute;
+  top: 12px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  font size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .rectangle-4 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 18px; 
+  left: 103px;
+  background-color: #ffffff;
+}
+
+.desktop .rectangle-5 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 18px; 
+  left: 279px;
+  background-color: #ffffff;
+}
+.desktop .rectangle-6 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 18px; 
+  left: 447px;
+  background-color: #ffffff;
+}
+
+.desktop .rectangle-7 {
+  position: absolute;
+  width: 97px;
+  height: 3px;
+  top: 44px; 
+  left: 1px;
+  background-color: #000000;
+}
+
+</style>
