@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name":" A1 Rustiko",
+        "price": 200,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" A2 Rustiko",
+        "price": 250,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" A3 Rustiko",
+        "price": 290,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" A4 Rustiko",
+        "price": 200,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" A5 Rustiko",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" A6 Rustiko",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" A7 Rustiko",
+        "price": 200,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" A8 Rustiko",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 5,
+        "name":" A5 Rustiko",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" A6 Rustiko",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" A7 Rustiko",
+        "price": 200,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" A8 Rustiko",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 8,
+        "name":" A8 Rustiko",
+        "price": 200,
+        "image": "image/8.png"
+    },
+    {
+        "id": 5,
+        "name":" A5 Rustiko",
+        "price": 300,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" A6 Rustiko",
+        "price": 200,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" A7 Rustiko",
+        "price": 200,
+        "image": "image/7.png"
+    }
+
+]

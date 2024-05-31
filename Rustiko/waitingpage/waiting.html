@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kape Rustiko</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/profile-style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../assets/images/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="../assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="../assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Kape Rustiko<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+            <li class="nav-item">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#profile" class="navbar-link" data-nav-link>
+                    <div class="profile-wrapper">
+                        <img src="../assets/images/avatar-1.jpg" alt="Profile" class="profile-icon" style="width: 30px;
+                        height: 30px;
+                        border-radius: 50%;">
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+
+      <div class="header-btn-group">
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+
+
+      <div class="main" style="background-image: url('../assets/images/orderbg.avif');">
+
+        <div class="head">
+            <p class="head_1">Order #3923H2 <span>Your Order has been processed</span></p>
+            <p class="head_2">Please wait the rider on your home!</p>
+        </div>
+
+        <ul>
+            <li>
+                <i class="icon uil uil-file-redo-alt"></i>
+                <div class="progress one">
+                    <p>1</p>
+                    <i class="uil uil-check"></i>
+                </div>Preparing Order</p>
+            </li>
+            <li>
+                <i class="icon uil uil-file-check-alt"></i>
+                <div class="progress two">
+                    <p>2</p>
+                    <i class="uil uil-check"></i>
+                </div>
+                <p class="text">Preparing Done</p>
+            </li>
+            <li>
+                <i class="icon uil uil-plane-departure"></i>
+                <div class="progress three">
+                    <p>3</p>
+                    <i class="uil uil-check"></i>
+                </div>
+                <p class="text">Rider on way</p>
+            </li>
+            <li>
+                <i class="icon uil-credit-card"></i>
+                <div class="progress four">
+                    <p>4</p>
+                    <i class="uil uil-check"></i>
+                </div>
+                <p class="text">Payment</p>
+            </li>
+            <li>
+                <i class="icon uil uil-user-check"></i>
+                <div class="progress five">
+                    <p>5</p>
+                    <i class="uil uil-check"></i>
+                </div>
+                <p class="text">Done</p>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- 
+        - #CTA
+      -->
+
+      <section class="section section-divider white cta" style="background-image: url('../assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">
+              Kape Rustiko Have Excellent Of
+              <span class="span">Quality Food and Beverages!</span>
+            </h2>
+
+            <p class="section-text">
+              Sa Kape Rustiko, ang pagkain at inumin namin ay superb ang quality! Laging masarap, laging sulit. Perfect para sa mga tropa at pamilya. 
+               Tara na at tikman ang best na kape at chibog dito. Siguradong babalik-balikan mo sa Kape Rustiko!
+            </p>
+
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="../assets/images/cta-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 cta-img">
+
+            <img src="../assets/images/sale-shape.png" width="216" height="226" loading="lazy"
+              alt="get up to 50% off now" class="abs-img scale-up-anim">
+          </figure>
+
+        </div>
+      </section>
+
+      
+
+
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Dishes</p>
+
+          <h2 class="h2 section-title">
+            Our Delicious <span class="span">Foods</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional support for an organism.
+          </p>
+
+          <ul class="fiter-list">
+
+            <li>
+              <button class="filter-btn  active">All</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Coffee</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Tea</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Frappe</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Delicacies</button>
+            </li>
+
+          </ul>
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="../assets/images/food-menu-1.png" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+
+                  <div class="badge">-15%</div>
+
+                  <button class="btn food-menu-btn">Order Now</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Chicken</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Rustiko Fried Chicken</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price">Php 49.00</data>
+
+                  <del class="del" value="69.00">Php 69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="../assets/images/food-menu-2.png" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+
+                  <div class="badge">-10%</div>
+                  <button class="btn food-menu-btn">Order Now</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Noddles</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Rustiko King Whopper</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="29.00">Php 29.00</data>
+
+                  <del class="del">Php 39.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="../assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+
+                  <div class="badge">-25%</div>
+
+                  <button class="btn food-menu-btn">Order Now</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Pizzas</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Rustiko Pizzas</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">Php 49.00</data>
+
+                  <del class="del">Php 69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="../assets/images/food-menu-4.png" width="300" height="300" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">Order Now</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Burrito</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Rustiko Burrito Supreme</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="59.00 ">Php 59.00</data>
+
+                  <del class="del">Php 69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="../assets/images/food-menu-5.png" width="300" height="300" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100">
+
+                  <div class="badge">-5%</div>
+                  <button class="btn food-menu-btn"><a href="/cart/index.html">Order Na!</a></button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Nuggets</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Rustiko Chicken BBQ</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">Php 49.00</data>
+
+                  <del class="del">Php 69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="../assets/images/food-menu-6.png" width="300" height="300" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100">
+
+                  <div class="badge">-15%</div>
+
+                  <button class="btn food-menu-btn">Order Now</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Chicken</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Rustiko Chicken</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">Php 49.00</data>
+
+                  <del class="del">Php 69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+
+
+
+        
+      </section>
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section section-divider gray banner">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="../assets/images/banner-1.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+
+                <div class="banner-item-content">
+                  <p class="banner-subtitle">50% Off Now!</p>
+
+                  <h3 class="banner-title">Discount For Delicious Rustiko Burgers!</h3>
+
+                  <p class="banner-text">Sale off 50% only this week</p>
+
+                  <button class="btn" onclick="openPopup()">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="../assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Rustiko Pizza</h3>
+
+                  <p class="banner-text">50% off Now</p>
+
+                  <button class="btn" onclick="openPopup()">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="../assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Rustiko Burgers</h3>
+
+                  <p class="banner-text">50% off Now</p>
+                  <button class="btn" onclick="openPopup()">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="../assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Rustiko Pizza</h3>
+
+                  <p class="banner-text">Sale off 50% only this week</p>
+
+                  <button class="btn" onclick="openPopup()">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" id="contact" style="background-image: url('../assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Kape Rustiko<span class="span">.</span></a>
+
+          <p class="footer-text">
+            Financial experts support or help you to to find out which way you can raise your funds more.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+639 012 34567</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">KapeRustiko@gmail.com</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">14 Gordon Avenue, Olongapo, Philippines, 2200</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Monday-Friday: 8:00 AM- 12:00 AM</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Saturday: 8:00 AM - 12:00 AM</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Sunday: 10:00 AM -10:00 AM</p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2024 <a href="https://www.facebook.com/michael2330" class="copyright-link">Michael D. Dayandante</a> BSCS 2C
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+  <div id="sidebar" class="sidebar">
+    <h2>Cart</h2>
+    <ul id="cart-items" class="cart-items">
+        <!-- Cart items will be dynamically added here -->
+    </ul>
+  </div>
+  
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../assets/js/cart.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    function openPopup() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "block";
+    }
+
+    function closePopup() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "none";
+    }
+</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize cart count to 0
+        let cartCount = 0;
+        const cartCountElement = document.getElementById('cart-count');
+
+        const addToCartButtons = document.querySelectorAll('.food-menu-btn');
+
+        addToCartButtons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                // Increment cart count
+                cartCount++;
+                // Update cart count display
+                cartCountElement.innerText = cartCount;
+            });
+        });
+    });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const cartIcon = document.getElementById('cart-icon');
+      const sidebar = document.getElementById('sidebar');
+      const cartItems = document.getElementById('cart-items');
+      let cartCount = 0;
+
+      // Open sidebar when clicking the cart icon
+      cartIcon.addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent default link behavior
+          sidebar.classList.toggle('open');
+      });
+
+      // Close sidebar when clicking outside
+      document.addEventListener('click', function(event) {
+          if (!sidebar.contains(event.target) && event.target !== cartIcon) {
+              sidebar.classList.remove('open');
+          }
+      });
+
+      // Function to add item to cart
+      function addItemToCart(itemName) {
+          cartCount++;
+          // Update cart count display
+          const cartCountElement = document.getElementById('cart-count');
+          cartCountElement.innerText = cartCount;
+          // Add item to sidebar
+          const newItem = document.createElement('li');
+          newItem.textContent = itemName; // Add actual item name here
+          cartItems.appendChild(newItem);
+          // Open sidebar
+          sidebar.classList.add('open');
+      }
+
+      // Example: Add item to cart when clicking the "Add to Cart" button
+      const addToCartButton = document.querySelector('.food-menu-btn');
+      addToCartButton.addEventListener('click', function() {
+          addItemToCart('Sample Item'); // Pass actual item name here
+      });
+  });
+</script>
+
+<script>
+  const one = document.querySelector(".one");
+const two = document.querySelector(".two");
+const three = document.querySelector(".three");
+const four = document.querySelector(".four");
+const five = document.querySelector(".five");
+
+one.onclick = function() {
+    one.classList.add("active");
+    two.classList.remove("active");
+    three.classList.remove("active");
+    four.classList.remove("active");
+    five.classList.remove("active");
+}
+
+two.onclick = function() {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.remove("active");
+    four.classList.remove("active");
+    five.classList.remove("active");
+}
+three.onclick = function() {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.add("active");
+    four.classList.remove("active");
+    five.classList.remove("active");
+}
+four.onclick = function() {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.add("active");
+    four.classList.add("active");
+    five.classList.remove("active");
+}
+five.onclick = function() {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.add("active");
+    four.classList.add("active");
+    five.classList.add("active");
+}
+
+</script>
+
+
+</body>
+
+
+
+
+
+
+</html>
